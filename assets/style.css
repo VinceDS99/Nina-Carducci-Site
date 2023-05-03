@@ -255,7 +255,8 @@ form textarea {
 input[type="submit"] {
 	/* background-color: #BEB45A; */
 	background-color: #3E3A19;
-	padding: .5em 1em
+	padding: .5em 1em;
+	color: #CFCFCF;
 }
 
 /* Referencement local rendu invisible */
