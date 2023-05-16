@@ -159,6 +159,7 @@
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
+      //Début fonction
       let activeImage = null;
       $("img.gallery-item").each(function() {
         if ($(this).attr("src") === $(".lightboxImage").attr("src")) {
@@ -189,7 +190,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i + 1;
+          index = i + 1;//Souci de code
         }
       });
       next = imagesCollection[index] || imagesCollection[0];
